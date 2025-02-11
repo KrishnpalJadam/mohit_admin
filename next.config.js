@@ -5,10 +5,10 @@ const nextConfig = {
   distDir: "build",
   images: {
     remotePatterns: [
-      {
-        protocol: "http",
-        hostname: "localhost", // Remove this on production
-      },
+      // {
+      //   protocol: "http",
+      //   hostname: "localhost", // Remove this on production
+      // },
       {
         protocol: "https",
         hostname: "www.kiaancloud.store", // Corrected domain name
